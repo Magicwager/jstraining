@@ -8,3 +8,9 @@ function swap(a,b){
     return [a,b]
 }
 console.log(swap(3,2))
+
+/* 可以用ES6的语法糖更简洁 */
+let a=1;
+let b=2;
+[a,b]=[b,a];
+console.log("a:"+a+",b:"+b)
